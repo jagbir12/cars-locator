@@ -1,0 +1,11 @@
+
+
+	Problematique (map)
+	notre app traite 2cas: 
+		-livraison (circuit ac un vehicule mouvant)
+		-distribution (zone selectionnee+vehicule)
+	la description des fonctionnalites principales en abrege
+		-l info bulle ac sn image 
+		-si on cliaue sur l info bulle il y aura affichage d une zone ac plus de details ac sn image
+	pas de fonctionnalites secondaires
+	

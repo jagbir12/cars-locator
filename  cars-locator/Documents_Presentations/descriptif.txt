@@ -1,0 +1,27 @@
+Intitulé de l'application: 
+	-
+Problématique: 
+	-Assurer le suivi fiable d’un grand nombre de véhicules pour une société de transport 
+	
+Description ( Fonctionnalités principales):
+	-affecter vehicule et chauffeur a un iteneraire
+	-une fois un véhicule est hors zone, l'application se charge de lui envoyer un warning au chauffeur et notifier le chef
+	-la localisation se fait via des smartphones donnés aux chauffeurs en utilisant le GPRS; ou bien via des appareils GPS fixés sur véhicule
+	-exploiter les ressources de la tablette: permettre les appels, messages
+	-lors du clique sur l icone d un vehicule sur le map, on devrait avoir une info bulle avec les informations concernant le chauffeur (nom, prenom, image, tel, espace livr ou distr) 
+	-si on clique sur l info bulle precedente nous serons rediriges vers une page c ttes le s infos du vehicule, marchandise et chauffeur
+	
+Vehicule hors zone: 2cas:
+	-espace livraison: longs trajets ==> on affecte un vehicule au plus court chemin entre 2 points avec une marge
+	-espace distribution: courts trajets a l interieur de la ville ==> on definit un diametre de circulation
+
+* Fonctionnalités secondaires
+	-notification si le chauffeur est en retard; calcul du temps d'arrivée en fct de la vitesse et la distance 
+	-notification concernant la consommation de carburant
+	-notification si vehicule n a pas encore fait son depart==> GPS non encore allume pour une vehicule dont le temps de depart planifie est depasse
+	-optimisation de la consommation de batterie ds cette application
+	
+* a chaque sortie on definira le type de sortie :
+	-livraison   : le vehicule, le chauffeur, le diametre, le plus court chemin
+	-distribution: le vehicule, le chauffeur, le diametre, la zone
+	

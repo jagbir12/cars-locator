@@ -1,0 +1,55 @@
+Introduction:
+	3ndna
+Objectifs et Caracteristiques:
+	3ndna
+Les Besoins Fonctionnels:
+	1-Module G. des chauffeurs
+	2-Module G. des Vehicules
+	3-Module G. des trajets
+	4-Module G. des affectations Chauffeur/Vehicules/Trajets
+	5-Module G. des Communication
+	6-Module G. des historiques
+	...
+
+Environnement:
+	chef lkbiir
+	Chauffeurs
+
+Module1 : 
+        *Gestion des Chauffeurs 
+        =>CRUD.
+	=>generation trombinoscopes.
+	=>gestion des penalités/Bonus
+Module2 : 
+        *Gestion des vehicules
+	=>CRUD.
+	=>generation des fiches techniques
+Module3 : 
+        *Gestion des Trajets
+	=>definition des trajets(destination, source)
+	=>definition des zones(coordonnées de chaque point)
+Module4 :
+        *Gestion des affectations Chauffeur/Vehicules/Trajets
+	=>Ajout et modification des affectations
+        =>Suivi des trafics
+Module5 :
+        *Gestion des communication
+        =>Envoi des messages/Appeler les chauffeurs
+Module6 :
+         *Gestion des historiques
+         =>Historique des trajets/vehicules/chauffeurs/types des messages envoyés à chaque chauffeur	
+
+Les Besoins Techniques:
+         3ndna
+Utilisation:
+    *Le chef peut:
+         =>Consultation des véhicules/trajets/chauffeurs
+         =>ajouter/modifier ou supprimer les Affectations les chauffeurs au trajets
+         =>Modifier/ajouter ou suppimer les trajets/chauffeurs
+         =>Suivre l'itinéraire
+         =>Envoyer des messages ou appeler les chauffeurs
+
+     *Le chauffeur:
+         =>Consutation de son trajet
+
+Modalité de paiement:
